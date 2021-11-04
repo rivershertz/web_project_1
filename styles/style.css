@@ -377,6 +377,8 @@
   margin: 0px;
   padding: 0px;
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
 }
 .footer__social-icons{
   margin-right: 10px;
