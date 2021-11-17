@@ -1,7 +1,4 @@
-@import url(../section-title/section-title.css);
-@import url(../section-subtitle/section-subtitle.css);
-@import url(./__iframe/video__iframe.css);
-@import url(./__iframes/video__iframes.css);
+
 
 .video{
     padding: 100px 0 0;
