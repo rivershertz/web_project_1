@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learning how to learn</title>
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
@@ -134,19 +133,15 @@
           <h2 class="section-title">TED talks</h2>
           <p class="section-subtitle">For lovers of procrastination</p>
           <ul class="video__iframes">
-            <li class="video__iframe">
-              <iframe
+            <li>
+              <iframe class="video__iframe"
                 src=https://www.youtube.com/embed/5MgBikgcWnY
-                width="515"
-                height="316"
                 allowfullscreen
               ></iframe>
             </li>
             <li>
-              <iframe
+              <iframe class="video__iframe"
                 src=https://www.youtube.com/embed/arj7oStGLkU
-                width="515"
-                height="316"
                 allowfullscreen
               ></iframe>
             </li>
@@ -250,13 +245,13 @@
           <div class="khan__container">
             <p class="khan__author">Salman Khan</p>
             <h2 class="khan__title">The One World Schoolhouse</h2>
-            <p class="khan__quote">
+            <blockquote class="khan__quote">
               Sal Khan's passion and innovation is transforming learning for
               millions of students worldwide. The One World Schoolhouse is a
               must-read for all who are committed to improving education so
               students everywhere can gain the skills and knowledge to be
               successful in school, careers and life.
-            </p>
+            </blockquote>
             <p class="khan__quote-author">George Lucas</p>
             <p class="khan__quote-author-subline">Filmmaker</p>
             <div class="khan__book-container">
@@ -347,32 +342,42 @@
           <p class="section-subtitle">
             Further materials on learning techniques and hacks.
           </p>
-          <div class="resources__logo-zone">
-            <a href="https://ed.ted.com/"
+          <ul class="resources__logo-zone">
+            <li>
+              <a href="https://ed.ted.com/"
               ><img
                 class="resources__logo"
                 src="./images/logos/resources-tedED.png"
                 alt="Teded logo"
             /></a>
-            <a href="https://medium.com/"
+            </li>
+            <li>
+              <a href="https://medium.com/"
               ><img
                 class="resources__logo"
                 src="./images/logos/resources-Medium.png"
                 alt="Medium logo"
             /></a>
-            <a href="https://www.dezeen.com/"
+            </li>
+            <li>
+              <a href="https://www.dezeen.com/"
               ><img
                 class="resources__logo"
                 src="./images/logos/resources-dezeen.png"
                 alt="de zeen logo"
             /></a>
-            <a href="https://www.goodreads.com/"
+            </li>
+            <li><a href="https://www.goodreads.com/"
               ><img
                 class="resources__logo"
                 src="./images/logos/resources-goodreads.png"
                 alt="good reads logo"
             /></a>
-          </div>
+            </li>
+            
+            
+            
+          </ul>
         </section>
       </main>
       <footer class="footer">
