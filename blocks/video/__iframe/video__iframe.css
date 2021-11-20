@@ -1,5 +1,5 @@
 .video__iframe{
-    margin: 0 20px 0 0 ;
+    margin: 0 20px 0 0;
     padding: 0;
     border: none;
     width: 515px;
@@ -9,3 +9,5 @@
 .video__iframe:last-of-type {
     margin-right: 0;
 }
+
+/*for some reason this pseudo class effects both of the videos and I really dont understand why....*/
