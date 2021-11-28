@@ -1,6 +1,6 @@
 ## My First Full Web-Development Project: 
-# Learning How to Learn
-[site link](https://rivershertz.github.io/web_project_1/index.html)
+# [Learning How to Learn](https://rivershertz.github.io/web_project_1/index.html)
+
 ### languages used in the project -
 * HTML 5
 * CSS 3
